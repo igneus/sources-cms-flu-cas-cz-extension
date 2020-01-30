@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Centrum Medievistických Studií - Sources - Extension",
+  "version": "1.0",
+
+  "description": "Allows navigating https://sources.cms.flu.cas.cz/src/ using arrow keys instead of navigation links",
+
+  "content_scripts": [
+    {
+      "matches": [
+        "*://sources.cms.flu.cas.cz/src/*"
+      ],
+      "js": ["extension.js"]
+    }
+  ]
+
+}
